@@ -1,0 +1,43 @@
+@import url('http://fonts.cdnfonts.com/css/sf-distant-galaxy');
+body{
+    background-image: url("/ej2/img/fondo.jpg");
+}
+*{
+
+    font-family: 'SF Distant Galaxy', sans-serif
+
+}
+
+h1,h2{
+    font-family: 'SF Distant Galaxy AltOutline', sans-serif;
+    color: #FFDE06;
+}
+
+li,p,h3,a{
+    color: white;
+}
+
+a:hover{
+    color: #FFDE06;
+}
+h3{
+    text-decoration: underline;
+}
+
+.error{
+    color: red;
+}
+
+table {
+    border: 1px solid black;
+    margin: auto auto;
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+table, th, td,tr {
+    border: 1px solid #FFDE06;
+}
+
+
