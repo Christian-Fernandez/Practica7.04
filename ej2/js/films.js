@@ -2,7 +2,7 @@
 //Función que hace un fetch a las peliculas de StarWars.
 async function informacionPeliculas() {
 
-    return await fetch("https://swapi.dev/api/films", {
+    return await fetch("https://swapi.py4e.com/api/films", {
         "method": "GET"
     }).then(response => {
 
@@ -52,7 +52,7 @@ function codPelicula(evento){
 //Función que le pasas por parámetro la película y la opción.
 async function datosPelicula(film) {
 
-    return await fetch("https://swapi.dev/api/films/" + film, {
+    return await fetch("https://swapi.py4e.com/api/films/" + film, {
         "method": "GET"
     }).then(response => {
 
@@ -90,6 +90,8 @@ async function informacionPersonajes(film,i) {
 
 //Función que muestra la lista de los personajes.
 function mostrarPersonaje(personaje,ul){
+
+
 
     ul.innerHTML+="<li><a href='#' class='personaje' id="+ personaje.url +">"+ personaje.name +"</a></li>";
 }

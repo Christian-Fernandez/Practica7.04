@@ -20,6 +20,7 @@ var vehiculo = document.getElementById("Vehiculos");
 var infoPersonaje = document.getElementById("infoPersonajes");
 var infoNave = document.getElementById("infoNave");
 var infoVehiculo = document.getElementById("infoVehiculo");
+
 window.onload= ()=>{
 
     //Ejecuta la función informacionPeliculas.
